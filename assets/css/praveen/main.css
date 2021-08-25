@@ -8,3 +8,12 @@
 .author{
     clip-path: circle(50% at 50% 50%);
 }
+
+@media only screen and (max-width: 600px){
+	.plogo{
+    max-width: 27%;
+    position: absolute;
+    top: 14%;
+    }
+}
+}
