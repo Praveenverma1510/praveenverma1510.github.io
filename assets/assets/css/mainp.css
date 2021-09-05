@@ -11,9 +11,7 @@ p{
 .ptop{
     margin: auto;
     width: 87%;
-    /* padding-top: 0.001rem; */
-    padding: .1rem 1rem;
-    background-color: #fbfbfb;
+    padding-top: 0.001rem;
 }
 .cp1{
     margin-left: 1rem;
@@ -41,7 +39,7 @@ p{
 .change-color-red{
     color: red;
 }
-/* .idx-link ::before{
+.idx-link ::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -52,7 +50,7 @@ p{
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
-} */
+}
 
 .subpoint1{
     margin-left: 1.5rem;
@@ -77,8 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
     margin-top: 3rem;
-    /* background-color: #f7f7f7; */
-    background-color: #ececec;
+    background-color: #f7f7f7;
     border-radius: .3rem;
     padding-left: .5rem;
 }
@@ -88,8 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     margin-top: 3rem;
-    /* background-color: #f7f7f7; */
-    background-color: #ececec;
+    background-color: #f7f7f7;
     border-radius: .5rem;
     /* padding-left: .5rem; */
     padding: 0rem 1rem;
@@ -97,8 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #idx li{
     padding-top: 1rem;
-    text-decoration: underline;
-
 }
 
 .np1{

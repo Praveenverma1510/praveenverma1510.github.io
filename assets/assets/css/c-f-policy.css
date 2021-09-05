@@ -10,13 +10,17 @@ p{
 
 .ptop{
     margin: auto;
-    width: 87%;
+    width: 90%;
     /* padding-top: 0.001rem; */
     padding: .1rem 1rem;
     background-color: #fbfbfb;
 }
 .cp1{
     margin-left: 1rem;
+    display: block;
+}
+.cp2{
+    margin-left: 2rem;
     display: block;
 }
 
@@ -33,9 +37,9 @@ p{
     margin-top: 1rem;
 }
 .bp1{
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
-.color-change-green{
+.change-color-green{
     color: rgb(36, 192, 36);
 } 
 .change-color-red{
@@ -77,47 +81,53 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
     margin-top: 3rem;
-    /* background-color: #f7f7f7; */
     background-color: #ececec;
+    /* background-color: #eae8e8; */
+    /* background-color: #f7f7f7; */
     border-radius: .3rem;
-    padding-left: .5rem;
+    /* padding-left: .5rem; */
+    /* width: fit-content; */
+    /* margin: auto; */
+    padding: 0rem 1rem;
 }
-
+.b1{
+    font-family: 'Merriweather', serif;
+    font-size: 110%;
+    font-weight: 550;
+}
 .head2{
     width: fit-content;
     font-family: 'Merriweather', serif;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     /* background-color: #f7f7f7; */
     background-color: #ececec;
-    border-radius: .5rem;
+    border-radius: .4rem;
     /* padding-left: .5rem; */
     padding: 0rem 1rem;
 }
 
 #idx li{
     padding-top: 1rem;
-    text-decoration: underline;
-
 }
 
 .np1{
     padding-top: 1rem;
 }
 
-.head3{
+.c-head{
     width: fit-content;
     margin: auto;
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
-    padding: 0rem 1rem;
+
 }
-
-
-
-
+.subpoint1 .sp2{
+    font-weight: 800;
+}
 @media only screen and (max-width: 600px){
     .head1{
         font-size: 2rem ;
     }
 }
+

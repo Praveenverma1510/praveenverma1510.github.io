@@ -11,7 +11,9 @@ p{
 .ptop{
     margin: auto;
     width: 87%;
-    padding-top: 0.001rem;
+    /* padding-top: 0.001rem; */
+    padding: .1rem 1rem;
+    background-color: #fbfbfb;
 }
 .cp1{
     margin-left: 1rem;
@@ -75,15 +77,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
     margin-top: 3rem;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-color: #ececec;
     border-radius: .3rem;
     padding-left: .5rem;
 }
 
 #idx li{
     padding-top: 1rem;
-}
+    text-decoration: underline;
 
+}
+.head2{
+    width: fit-content;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin-top: 3rem;
+    /* background-color: #f7f7f7; */
+    background-color: #ececec;
+    border-radius: .5rem;
+    /* padding-left: .5rem; */
+    padding: 0rem 1rem;
+}
 .np1{
     padding-top: 1rem;
 }

@@ -10,8 +10,10 @@ p{
 
 .ptop{
     margin: auto;
-    width: 87%;
-    padding-top: 0.001rem;
+    width: 90%;
+    /* padding-top: 0.001rem; */
+    padding: .1rem 1rem;
+    background-color: #fbfbfb;
 }
 .cp1{
     margin-left: 1rem;
@@ -33,13 +35,13 @@ p{
 .bp1{
     margin-left: 1rem;
 }
-.color-change-green{
+.change-color-green{
     color: rgb(36, 192, 36);
 } 
 .change-color-red{
     color: red;
 }
-.idx-link ::before{
+/* .idx-link ::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -50,7 +52,7 @@ p{
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
-}
+} */
 
 .subpoint1{
     margin-left: 1.5rem;
@@ -75,9 +77,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
     margin-top: 3rem;
-    background-color: #f7f7f7;
+    background-color: #ececec;
+    /* background-color: #eae8e8; */
+    /* background-color: #f7f7f7; */
     border-radius: .3rem;
-    padding-left: .5rem;
+    /* padding-left: .5rem; */
+    /* width: fit-content; */
+    /* margin: auto; */
+    padding: 0rem 1rem;
 }
 
 #idx li{
@@ -88,14 +95,19 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1rem;
 }
 
+.c-head{
+    width: fit-content;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+
+}
+.subpoint1 .sp2{
+    font-weight: 800;
+}
 @media only screen and (max-width: 600px){
     .head1{
         font-size: 2rem ;
     }
 }
 
-.c-head{
-    width: fit-content;
-    margin: auto;
-
-}
